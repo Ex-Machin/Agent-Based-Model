@@ -9,3 +9,12 @@ class HeatingSystem:
 
     def price(self, years=1):
         return self.price_of_installing + self.system_cost * years
+    
+    @classmethod
+    def from_dict(cls, dict_obj):
+        return cls(
+            name=dict_obj['name'],
+            price=dict_obj['price'],
+            co2_emissions=dict_obj['co2_emissions'],
+            energy_efficiency=dict_obj['energy_efficiency']
+        )
