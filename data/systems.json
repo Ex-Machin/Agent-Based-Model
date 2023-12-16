@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Air Source Heat Pump",
+        "price_of_installing": 4.5,
+        "system_cost": 5,
+        "co2_emissions": 2,
+        "energy_efficiency": 0.9,
+        "type_of_fuel": "electricity"
+    },
+    {
+        "name": "Gas Boiler",
+        "price_of_installing": 3.3,
+        "system_cost": 2.5,
+        "co2_emissions": 3,
+        "energy_efficiency": 0.85,
+        "type_of_fuel": "natural_gas"
+    },
+    {
+        "name": "Gas Furnace",
+        "price_of_installing": 3,
+        "system_cost": 2.35,
+        "co2_emissions": 1,
+        "energy_efficiency": 0.95,
+        "type_of_fuel": "natural_gas"
+    },
+    {
+        "name": "Electric Boiler",
+        "price_of_installing": 3.3,
+        "system_cost": 3.25,
+        "co2_emissions": 1,
+        "energy_efficiency": 0.95,
+        "type_of_fuel": "electricity"
+    },
+    {
+        "name": "Electric Furnace",
+        "price_of_installing": 3.3,
+        "system_cost": 1.1,
+        "co2_emissions": 1,
+        "energy_efficiency": 0.95,
+        "type_of_fuel": "electricity"
+    }
+]
